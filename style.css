@@ -1,0 +1,32 @@
+
+.w3-grid-template {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+@media screen and (max-width: 600px) {
+    .w3-grid-template {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .w3-grid-template {
+        display: grid;
+        margin: auto;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    body {
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .w3-grid-template {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
